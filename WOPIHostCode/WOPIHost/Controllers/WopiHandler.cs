@@ -443,7 +443,7 @@ namespace WOPIHost.Controllers
                     SupportsGetLock = true,
                     SupportsUserInfo = true,
                     //SupportsDeleteFile = true,
-
+                    SupportsExtendedLockLength = true,
                     ReadOnly = bRO,
                     UserCanWrite = !bRO,
 
