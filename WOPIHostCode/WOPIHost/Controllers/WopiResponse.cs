@@ -67,7 +67,7 @@ namespace WOPIHost.Controllers
         public bool SupportsGetLock { get; set; }
         public bool SupportsUserInfo { get; set; }
         //public bool SupportsDeleteFile { get; set; }
-
+        public bool SupportsExtendedLockLength { get; set; }
         public string[] SupportedShareUrlTypes { get; set; }
         public string UserInfo { get; set; }
     }
